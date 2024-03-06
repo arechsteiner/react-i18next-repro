@@ -11,9 +11,18 @@
   },
   "dependencies": {
     "i18next": "^23.10.0",
+    "i18next-resources-to-backend": "^1.2.0",
+    "prettier": "^3.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-i18next": "^14.0.5"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "tabWidth": 2,
+    "singleQuote": true,
+    "semi": false,
+    "trailingComma": "all"
   },
   "devDependencies": {
     "@types/react": "^18.2.56",
